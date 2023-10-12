@@ -14,6 +14,10 @@ header{
     background-image:url(images/background-moon.jpg);
     background-size: cover;
 }
+a{
+    color: white;
+
+}
 
 .navbar{
     position: absolute;
@@ -27,12 +31,20 @@ header{
 .navbar .a{
     color: white;
 }
-
 .navbar .logo{
     font-size: 1.5em;
     color: white;
     font-weight: bold;
 }
+.fa-home::before{ 
+	font-size:1rem; 
+	color:white; 
+} 
+.fa-home::after{ 
+	font-size:1rem; 
+	color:red; 
+} 
+
 .navbar .nav-links  ul{
     display: flex;
     color: white;
@@ -43,11 +55,13 @@ header{
     margin: 0 25px;
 
 }
-.navbar , .nav-links , ul ,li.active{
-    color: red;
+.navbar .nav-links ul li.active {
+    color: white;
     font-weight: 600;
-
 }
+
+
+
 .navbar .menu-hamburger{
     position: absolute;
     top:50px;
@@ -112,6 +126,3 @@ header{
     
 
     
-
-
-

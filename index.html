@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title> CV développeur-web Quendez-Antoine </title>
+</head>
+<body>
+    
+    <nav class="navbar">
+        <a href="#" class="logo">CV Quendez Antoine </a>
+        <div class="nav-links">
+            <ul>
+                <li class="active"><a href="#">A propos</a></li>
+                <li><a href="#"></a>Compétences</li>
+                <li><a href="#"></a>Parcours</li>
+                <li><a href="#"></a>Formation</li>
+                <li><a href="#"></a>Projets</li>
+            </ul>
+        </div>
+        <img src="images/menu-btn.png" alt="menu-hamburger" class="menu-hamburger">
+    </nav>
+    <header></header>
+    <script>
+        const menuHamburger = document.querySelector(".menu-hamburger");
+        const navLinks = document.querySelector(".nav-links");
+
+        menuHamburger.addEventListener('click', () => {
+            navLinks.classList.toggle('mobile-menu')
+        });
+       
+        
+    </script>
+</body>
+</html>

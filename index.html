@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&family=Raleway:wght@300&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&family=Raleway:wght@300&display=swap"
         rel="stylesheet">
+        <script src="https://kit.fontawesome.com/ab416324b3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <title> CV développeur-web Quendez-Antoine </title>
 </head>
@@ -22,16 +22,52 @@
             <ul>
                 <li><a href="index.html"><i class="fa fa-home"></i> </i></a></li>
                 <li class="active"><a href="#">A propos</a></li>
-                <li><a href="#">Compétences</a></li>
+                <li><a href="#competences">Compétences</a></li>
                 <li><a href="images/CV ANTOINE QUENDEZ.pdf">Parcours</a></li>
                 <li><a href="#">Formation</a></li>
                 <li><a href="#">Projets</a></li>
+                <li><a href="#">Contactez-moi</a></li>
+                <li><a href="#"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a></li>
+                <li><a href="#"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a></li>
             </ul>
         </div>
         <img src="images/menu-btn.png" alt="menu-hamburger" class="menu-hamburger">
     </nav>
+    <div class="icon-skills">
+            <img src="images/translate-icon.svg"  alt="icon-language">
+            <p>Anglais/Espagnol/Catalan</p>
+            <img src="#"  alt="">
+            <p>Front-end</p>   
+    </div>
+    <section id="competences" class="container">
+        <h2>Mes Compétences</h2>
+        <ul>
+            <li>
+                <img class="icons-move" src="images/icon-html.svg" alt="icon-html">
+                <img class="icons-move" src="images/icons8-css.svg" alt="icons-css">
+                <img class="icons-move" src="images/icons8-javascript.svg" alt="javascript-icon">
+                <img class="icons-move" src="images/icons8-github.svg" alt="github-icon">
+                <img class="icons-move" src="images/icons8-bootstrap.svg" alt="bootsrap-icon">
+                <img class="icons-move" src="images/icons8-npm.svg" alt="icon-npm">
+                <img class="icons-move" src="images/icons8-nodejs.svg" alt="icon-nodejs">
+            </li>
+            <!-- Ajouter d'autres compétences ici -->
+        </ul>
+    </section>
+    <section id="competences"class="container">
+        <div>
+            <h2>Contactez moi</h2>
+            <a class="btn" href="mailto:antoine.quendez@gmail.com">écrivez-moi</a>
+            <ul>
+                <li>écrivez-moi</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <!-- Ajouter d'autres compétences ici -->
+            </ul>
+        </div>
+    </section>
     <footer>Antoine Quendez 2023©</footer>
-    <header></header>
+    
     <script>
         const menuHamburger = document.querySelector(".menu-hamburger");
         const navLinks = document.querySelector(".nav-links");

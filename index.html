@@ -9,6 +9,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@200&family=Raleway:wght@300&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/ab416324b3.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="styles.css">
     <title> CV développeur-web Quendez-Antoine </title>
@@ -19,55 +24,71 @@
     <nav class="navbar">
         <a href="#" class="logo">CV Quendez Antoine </a>
         <div class="nav-links">
+            <!--  -->
             <ul>
                 <li><a href="index.html"><i class="fa fa-home"></i> </i></a></li>
-                <li class="active"><a href="#">A propos</a></li>
+                <li class="active"><a href="#a-propos">A propos</a></li>
                 <li><a href="#competences">Compétences</a></li>
                 <li><a href="images/CV ANTOINE QUENDEZ.pdf">Parcours</a></li>
                 <li><a href="#">Formation</a></li>
                 <li><a href="#">Projets</a></li>
-                <li><a href="#">Contactez-moi</a></li>
-                <li><a href="#"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a></li>
+                <li><a href="#contact">Contactez-moi</a></li>
+                <li><a href="https://github.com/QDZantoine" target="_blank"><i class="fa-brands fa-github" style="color: #ffffff;"></i></a></li>
+                <li><a href="www.linkedin.com/in/antoine-quendez-14a336275" target="_blank"><i class="fa-brands fa-linkedin" style="color: #ffffff;"></i></a></li>
             </ul>
+            
         </div>
         <img src="images/menu-btn.png" alt="menu-hamburger" class="menu-hamburger">
     </nav>
-    <div class="icon-skills">
-            <img src="images/translate-icon.svg"  alt="icon-language">
-            <p>Anglais/Espagnol/Catalan</p>
-            <img src="#"  alt="">
-            <p>Front-end</p>   
-    </div>
-    <section id="competences" class="container">
-        <h2>Mes Compétences</h2>
-        <ul>
-            <li>
-                <img class="icons-move" src="images/icon-html.svg" alt="icon-html">
-                <img class="icons-move" src="images/icons8-css.svg" alt="icons-css">
-                <img class="icons-move" src="images/icons8-javascript.svg" alt="javascript-icon">
-                <img class="icons-move" src="images/icons8-github.svg" alt="github-icon">
-                <img class="icons-move" src="images/icons8-bootstrap.svg" alt="bootsrap-icon">
-                <img class="icons-move" src="images/icons8-npm.svg" alt="icon-npm">
-                <img class="icons-move" src="images/icons8-nodejs.svg" alt="icon-nodejs">
-            </li>
-            <!-- Ajouter d'autres compétences ici -->
-        </ul>
-    </section>
-    <section id="competences"class="container">
-        <div>
-            <h2>Contactez moi</h2>
-            <a class="btn" href="mailto:antoine.quendez@gmail.com">écrivez-moi</a>
+    
+        <section class="title-home">
+            <p class="phrase">Bonjour,je m'apelle Antoine et je suis</p>
+            <h1 class="title-dev">Développeur web Full-stack</h1>
+            
+        </section>
+        <section class="icon-skills">
+            <div>
+                <img class="icon-on" src="images/translate-icon.svg"  alt="icon-language">
+                <p>Anglais/Espagnol/Catalan</p>
+            </div>
+            <div>
+                <img class="icon-on" src="images/code-icon.svg"  alt="code-icon">
+                <p>Front-end</p>
+            </div>
+            <div>
+                <img class="icon-on" src="images/database-icon.svg"  alt="database-icon">
+                <p>Back-end</p> 
+            </div>
+                
+                     
+        </section>
+        <div id="a-propos"  class="a-propos">
+            <img src="" alt="">
+            <p >Après 6 ans de service au sein de la Marine nationale , j’ai décidé d’entamer une reconversion dans un domaine qui correspond plus à mes attentes. Je suis actuellement en formation au sein du centre militaire de formation professionnel afin d’obtenir un certificat de niveau 5 (BAC+2) de Développeur web et application.</p>
+            <p>Au-delà de  mes qualités personnelles telles que la rigueur, la persévérance, la  ponctualité, l’envie d’apprendre je possède des compétences :</p>
+        </div>
+        <section id="competences" class="container">
+            <h2>Mes Compétences</h2>
             <ul>
-                <li>écrivez-moi</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
+                <li>
+                    <img class="icons-move" src="images/icon-html.svg" alt="icon-html">
+                    <img class="icons-move" src="images/icons8-css.svg" alt="icons-css">
+                    <img class="icons-move" src="images/icons8-javascript.svg" alt="javascript-icon">
+                    <img class="icons-move" src="images/icons8-github.svg" alt="github-icon">
+                    <img class="icons-move" src="images/icons8-bootstrap.svg" alt="bootsrap-icon">
+                    <img class="icons-move" src="images/icons8-npm.svg" alt="icon-npm">
+                    <img class="icons-move" src="images/icons8-nodejs.svg" alt="icon-nodejs">
+                </li>
                 <!-- Ajouter d'autres compétences ici -->
             </ul>
-        </div>
-    </section>
-    <footer>Antoine Quendez 2023©</footer>
-    
+        </section>
+        <section id="contact"class="container">
+                <h2>Contactez moi</h2>
+                <a class="btn" href="mailto:antoine.quendez@gmail.com">écrivez-moi</a>
+                <img class="phone-icon" src="images/phone-icon.svg" alt="phone-icon">
+                <p class="phone-number">+33 (0)6 01 49 62 18</p>
+        </section>
+        <footer>Antoine Quendez 2023©</footer>
     <script>
         const menuHamburger = document.querySelector(".menu-hamburger");
         const navLinks = document.querySelector(".nav-links");
